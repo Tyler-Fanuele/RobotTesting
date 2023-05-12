@@ -1,3 +1,7 @@
+Needed to get the stupid  thing to connect 
+tyler@tyler-XPS-15-7590 ~ % sudo ifconfig enx00e04c688b17 169.254.112.15
+tyler@tyler-XPS-15-7590 ~ % sudo nmcli connection show   
+
 Example of a moveJ (move with joints) vector
 
 std::vector<double> joint_vect = {1, 0, 0, -1.6, -1.6, 0};

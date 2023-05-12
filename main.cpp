@@ -51,7 +51,7 @@ int main(int argc, char** argv) {
     rtde_control.moveL(init_q);
     new_q = init_q;
 
-        // Y +-
+    // Y +-
     new_q[2] += .2;
     rtde_control.moveL(new_q);
 
