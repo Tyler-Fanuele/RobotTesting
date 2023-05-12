@@ -11,6 +11,9 @@ int main(int argc, char** argv) {
     RTDEControlInterface rtde_control("169.254.112.14");
     std::cout << "Connected to robot\n";
 
+    std::vector<double> point_vect = {1, 0, 0, -1.6, -1.6, 0};
+
+    rtde_control.moveJ(point_vect); 
 
     rtde_control.stopScript();
     std::cout << "Script ended\n";

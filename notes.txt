@@ -1,0 +1,13 @@
+Example of a moveJ (move with joints) vector
+
+std::vector<double> joint_vect = {1, 0, 0, -1.6, -1.6, 0};
+
+The vector is broken down as shown
+{1, 0, 0, -1.6, -1.6, 0}
+ |  |  |    |     |   |
+ |  |  |    |     |   Wrist 3
+ |  |  |    |     Wrist 2
+ |  |  |    Wrist 1
+ |  |  Shoulder
+ |  Elbow
+ Base
